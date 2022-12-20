@@ -8,7 +8,7 @@ tags:
   - update
 excert:
 altair-loader:
-  plot-1: ["assets/altair-charts/mode-by-departure-time.html", '300', '100%']
+  plot-1: ["assets/altair-charts/mode-by-departure-time.html", '300', '500']
 ---
 
 
