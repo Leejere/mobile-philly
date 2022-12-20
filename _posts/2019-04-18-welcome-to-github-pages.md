@@ -1,5 +1,5 @@
 ---
-title: "Welcome to GitHub Pages!"
+title: "Hello"
 date: 2019-04-18
 categories:
   - blog
