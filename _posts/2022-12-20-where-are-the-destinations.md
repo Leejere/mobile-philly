@@ -8,7 +8,7 @@ tags:
   - update
 ---
 
-<iframe src="../../_data/altair-charts/mode-by-departure-time.html" width="100%" title="test-chart"></iframe>
+<iframe src="https://raw.githubusercontent.com/Leejere/mobile-philly/main/_data/altair-charts/mode-by-departure-time.html" width="100%" title="test-chart"></iframe>
 
 # Visualizing 
 
