@@ -1,6 +1,7 @@
 ---
 title: "Where Do People Go"
 date: 2019-04-18
+published: true
 categories:
   - blog
 tags:
@@ -8,7 +9,7 @@ tags:
   - update
 excert:
 altair-loader:
-  plot-1: ["assets/altair-charts/mode-by-departure-time.html", "300", "500"]
+  plot-1: "assets/altair-charts/mode-by-departure-time.json"
 ---
 
 
