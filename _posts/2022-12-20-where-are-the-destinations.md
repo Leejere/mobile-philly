@@ -6,9 +6,12 @@ categories:
 tags:
   - Github Page
   - update
+excert:
+altair-loader:
+  plot-1: ["assets/altair-charts/mode-by-departure-time.html"]
 ---
 
-<iframe src="https://raw.githubusercontent.com/Leejere/mobile-philly/main/_data/altair-charts/mode-by-departure-time.html" width="100%" title="test-chart"></iframe>
+<div id="plot-1"></div>
 
 # Visualizing 
 
