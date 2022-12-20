@@ -1,5 +1,5 @@
 ---
-title: "Hello"
+title: "Where Do People Go"
 date: 2019-04-18
 categories:
   - blog
@@ -7,6 +7,10 @@ tags:
   - Github Page
   - update
 ---
+
+<iframe src="../_data/altair-charts/mode-by-departure-time.html" width="100%" title="test-chart"></iframe>
+
+# Visualizing 
 
 You'll find this post in your `_posts` directory. Go ahead and edit it and commit your changes to to the repository. GitHub will automatically rebuild your site. Wait a few minutes and then refresh the site link to see the new changes. There are two main ways to make changes to your site:
 
