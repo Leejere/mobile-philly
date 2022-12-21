@@ -30,9 +30,9 @@ Note: to make the maps clearer, only net flows above a particular threshold (5 f
 
 Consistent with the [previous blog](https://leejere.github.io/mobile-philly/blog/1-destinations/), we can identify that work destinations are the most concentrated and work trips are the longest. On the other hand, shopping trips are much more diffused.
 
-# Code example
+# Code excerpt
 
-Code example: making the net-flow map of eating trips. For more detail, see [this notebook](https://github.com/MUSA-550-Fall-2022/final-project-mobile_philly/blob/main/notebooks/replica-visualization.ipynb).
+Code excerpt: making the net-flow map of eating trips. For more detail, see [this notebook](https://github.com/MUSA-550-Fall-2022/final-project-mobile_philly/blob/main/notebooks/replica-visualization.ipynb).
 
 ```python
 def find_net_flow(df, purpose):

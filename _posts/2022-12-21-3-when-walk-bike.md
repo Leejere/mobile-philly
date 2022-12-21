@@ -63,9 +63,9 @@ Are people in some places more likely to walk or bike than people in other place
 <div id="alt-plot-13"></div>
 <div id="alt-plot-14"></div>
 
-# Code example
+# Code excerpt
 
-Code example of using the simple logistic regression to estimate the likelihood to walk/bike by distance for each trip purpose.
+Code excerpt of using the simple logistic regression to estimate the likelihood to walk/bike by distance for each trip purpose.
 
 ```python
 def make_likelihood_dashboard(var_name, types, display_name):
