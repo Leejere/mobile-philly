@@ -15,7 +15,7 @@ excert:
 ---
 
 # Introduction
-In this blog, we will walk you through some analysis based Yelp dataset avaiables on https://www.yelp.com/dataset/documentation/main.
+In this blog, we will walk you through some analysis based Yelp dataset avaiables on [Yelp.dataset.com](https://www.yelp.com/dataset/documentation/main).
 We
 
 
