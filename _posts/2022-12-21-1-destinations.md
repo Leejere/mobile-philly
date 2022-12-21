@@ -15,6 +15,9 @@ hv-loader:
   hv-plot-3: ["assets/altair-charts/Work-destinations.html", "650"]
   hv-plot-4: ["assets/altair-charts/School-destinations.html", "650"]
 excert:
+toc: true
+toc_sticky: true
+read_time: false
 
 ---
 

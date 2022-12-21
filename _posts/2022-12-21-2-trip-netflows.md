@@ -17,6 +17,8 @@ In the [previous blog](https://leejere.github.io/mobile-philly/blog/1-destinatio
 
 <div id="alt-plot-15"></div>
 
+# Net flows
+
 The below plots show the *net-flows* between pairs of block groups. *Net flows* mean the number of incoming trips minus the number of outgoing trips. The **widths** of the lines signify the volumn of the net flows, whereas the colors signify the direction, with **blue** meaning the origins and **yellow** representing the sinks. In this case, those "yellow areas" with long lines sticking to far-away locations are the major centers or attractors.
 
 Note: to make the maps clearer, only net flows above a particular threshold (5 for eating, 10 for shopping and schooling, and 20 for working) are plotted.
@@ -27,6 +29,8 @@ Note: to make the maps clearer, only net flows above a particular threshold (5 f
 ![school-net-flow]({{ site.url }}{{ site.baseurl }}/assets/images/school.jpg)
 
 Consistent with the [previous blog](https://leejere.github.io/mobile-philly/blog/1-destinations/), we can identify that work destinations are the most concentrated and work trips are the longest. On the other hand, shopping trips are much more diffused.
+
+# Code example
 
 Code example: making the net-flow map of eating trips. For more detail, see [this notebook](https://github.com/MUSA-550-Fall-2022/final-project-mobile_philly/blob/main/notebooks/replica-visualization.ipynb).
 
