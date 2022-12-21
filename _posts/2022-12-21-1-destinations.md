@@ -20,8 +20,6 @@ excert:
 
 ---
 
-# Introduction
-
 What are the major destinations of Philadelphia? When, how, and why do people travel? [Replica](https://studio.replicahq.com/)'s data may help us understand the question. Replica provides *modeled* *trip-level* data **in a typical weekday** using multivarious sources:
 
 - Census and ACS;
