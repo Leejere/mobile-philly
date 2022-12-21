@@ -22,42 +22,50 @@ excert:
 
 # Introduction
 
-What are the major destinations of Philadelphia? When, how, and why do people travel? [Replica](https://studio.replicahq.com/) provides 
+What are the major destinations of Philadelphia? When, how, and why do people travel? [Replica](https://studio.replicahq.com/)'s data may help us understand the question. Replica provides *modeled* *trip-level* data **in a typical weekday** using multivarious sources:
 
-# Data
+- Census and ACS;
+- Travel surveys;
+- In-auto GPS data;
+- Data from transit agencies;
 
-Introducing replica data
+[Here](http://help.replicahq.com/en/articles/6625924-north-atlantic-fall-2021-release-notes) Replica talks more about data sources and its methodology. We subset only trips that start and end in Philadelphia. The modeled data for Philadelphia is [regarded as trustworthy](http://help.replicahq.com/en/articles/4000393-replica-places-certainty-indicators-overview).
 
-# Overall arrivals by the hour
+# Data processing
+
+Replica's data includes trip origin and destination (block-group-level), trip distance and durations, and trip-taker demographis data for every trip. We selected a few columns for our purpose. The data processing script can be found [here](https://github.com/MUSA-550-Fall-2022/final-project-mobile_philly/blob/main/notebooks/data-preprocessing.py).
+
+# Philadelphia's destinations
+
+Using `datashader` with the python `hvplot` library, we plotted every destination in Philadelphia at different times of the day. We can see that there are two **peak hours**, one in the morning, and the other in the afternoon. Destinations are highly **concentrated** in Center City, but are more **diffused** in the afternoon
 
 ![Arrivals-by-hour](../../assets/gif/destination-by-hour.gif)
 
+Note: each dot represents an arrival. The dot is randomly generated within the block group in which the arrival falls.
+
+# Destination typology
+
+It is reasonable that the overall number of arrivals have two peaks in one day, as shown in the below graph, but what about each individual block group? 
+
 <div id="alt-plot-1"></div>
-<div id="alt-plot-2"></div>
+
+We can do a clustering study using the k-means method. For each block group, we calculated the *number of arrivals* of each hour, and *normalized* the arrival couns by *the trip count of 12-1pm* of each block group. Using a scree-plot method, we chose $k=8$ as the number of clusters.
+
 <div id="alt-plot-3"></div>
+
+The interactive chart demonstrate the "arrival pattern" of each block group. **Click-select** the block group(s) in the left bar-plot and observe the arrival patterns in the right plot. We can see that some clusters have two clear peaks, whereas other clusters have one dominant peak. The clusters with the morning peak indicates more business-oriented land uses, and those with afternoon-peaks indicate residential or some commercial land uses.
+
+A map of the different types of destinations is shown as follows.
+
+<div id="alt-plot-2"></div>
+
+# Destinations of different trip purposes
+
+The below four charts document the destinations of different trip purposes. Each dot represents an arrival and is randomly generated within the block group in which the arrival falls. Compared to eating and shopping trips, work destinations are most spatially concentrated. Shopping destinations and schooling destinations are more spatially diffused.
+
 <div id="hv-plot-1"></div>
 <div id="hv-plot-2"></div>
 <div id="hv-plot-3"></div>
 <div id="hv-plot-4"></div>
 
-You'll find this post in your `_posts` directory. Go ahead and edit it and commit your changes to to the repository. GitHub will automatically rebuild your site. Wait a few minutes and then refresh the site link to see the new changes. There are two main ways to make changes to your site:
-
-- Edit files within your in the browser at GitHub.com
-- Clone down your repository and make updates locally, then push them to your GitHub repository.
-
-**To add new posts:** Add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-```python
-def print_message(message):
-  print(message)
-
-print_message("Welcome to GitHub Pages")
-```
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll.
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]: https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+To find out the more specific OD's of these trips, read [the next blog](https://leejere.github.io/mobile-philly/2-trip-netflows/).
