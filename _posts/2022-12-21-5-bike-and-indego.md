@@ -26,6 +26,8 @@ We trim the original dataset to only focus on Philadelphai and did some basic da
 ```python
 business["city"]=='Philadelphia'
 ```
+### 
+![topyelp]({{ site.url }}{{ site.baseurl }}/assets/images/Top-Yelp-Categories.jpg)
 
 
 Bike ratio by block group:
