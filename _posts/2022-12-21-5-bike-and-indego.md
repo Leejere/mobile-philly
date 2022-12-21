@@ -14,6 +14,7 @@ altair-loader:
 folium-loader:
   folium-chart-1: ["assets/folium/Philadelphia-Rating-heatmap-Animation.html", "400"] 
   folium-chart-2: ["assets/folium/Philadelphia-Resturants-Review-heatmap-Animation.html", "400"]
+  folium-chart-3: ["assets/folium/Resturants-in-Philadelphia.html", "400"]
 toc: true
 toc_sticky: true
 ---
@@ -65,7 +66,11 @@ Interesting to see Nightlife is the Top1 categories for restaurants in Philadelp
 
 <div id="folium-chart-2"></div>
 
+## Resturants in Philadelphia 
 
+Using mapbox and plotly, we can have a interactive map showing all the restaurants and their star ratings.
+
+<div id="folium-chart-3"></div>
 
 Bike ratio by block group:
 <div id="alt-plot-16"></div>
