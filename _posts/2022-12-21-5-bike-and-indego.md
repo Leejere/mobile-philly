@@ -1,5 +1,5 @@
 ---
-title: "05 Biking and Indego"
+title: "04 Yelp and Biking:Yelp in Philadelphia"
 date: 2022/12/20
 published: true
 categories:
@@ -15,6 +15,12 @@ excert:
 ---
 
 # Introduction
+In this blog, we will walk you through some analysis based Yelp dataset avaiables on [Yelp.dataset.com](https://www.yelp.com/dataset/documentation/main).
+We
+
+
+
+
 
 Bike ratio by block group:
 <div id="alt-plot-16"></div>
