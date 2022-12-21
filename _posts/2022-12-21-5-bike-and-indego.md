@@ -14,13 +14,18 @@ excert:
 
 ---
 
-# Introduction
+## Yelp Dataset
 In this blog, we will walk you through some analysis based Yelp dataset avaiables on [Yelp.dataset.com](https://www.yelp.com/dataset/documentation/main).
-We
+The original dataset contains 5 json file, we will mainly use 2 of them: Business and Check in 
+business.json represents all business avaivable on Yelp platform data including unique id,lat,lng, attributes, and categories.
+checkin.json cotains all the checkins based on each unique business id.
 
+# Yelp in Philadelphia
+We trim the 
 
-
-
+```python
+business["city"]=='Philadelphia'
+```
 
 Bike ratio by block group:
 <div id="alt-plot-16"></div>
