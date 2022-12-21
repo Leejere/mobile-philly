@@ -57,32 +57,26 @@ plugins:
 author:
   name: "Jie Li, Jie Wang"
   avatar:
-  bio: "Director of Finance, Data, and Policy, Philadelphia Controller"
+  bio: "in MUSA 5550 in University of Pennsylvania"
   links:
-    - label: "Website"
+    - label: "Jie L's Website"
       icon: "fas fa-fw fa-link"
-      url: "https://nickhand.dev"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
+      url: "http://jieliurban.com/"
+    - label: "Jie L's GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/Leejere"
+    - label: "Jie W's GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Buduwang"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
+    - label: "Jie L's GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/Leejere"
+    - label: "Jie W's GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Buduwang"
 
 # Defaults
 defaults:
