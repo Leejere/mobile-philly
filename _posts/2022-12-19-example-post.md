@@ -3,6 +3,8 @@ title: "Example: Embedding Matplotlib Images"
 date: 2019-04-17
 published: true
 tags: [dataviz, matplotlib]
+altair-loader:
+  plot-1: "assets/altair-charts/mode-by-departure-time.json"
 excerpt: "This is an example blog post that embeds a matplotlib image."
 toc: true
 toc_sticky: true

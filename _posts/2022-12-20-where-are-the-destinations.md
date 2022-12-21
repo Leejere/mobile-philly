@@ -7,9 +7,12 @@ categories:
 tags:
   - Github Page
   - update
-excert:
 altair-loader:
-  plot-1: "assets/altair-charts/mode-by-departure-time.json"
+  alt-plot-1: "assets/altair-charts/arrivals-by-time.json"
+  alt-plot-2: "assets/altair-charts/bg-clustering-map.json"
+  alt-plot-3: "assets/altair-charts/cluster-dashboard.json"
+excert:
+
 ---
 
 # Introduction
@@ -20,9 +23,13 @@ A brief introduction
 
 Introducing replica data
 
-![Arrivals-by-hou](../../assets/gif/destination-by-hour.gif)
+# Overall arrivals by the hour
 
-<div id="plot-1"></div>
+![Arrivals-by-hour](../../assets/gif/destination-by-hour.gif)
+
+<div id="alt-plot-1"></div>
+<div id="alt-plot-2"></div>
+<div id="alt-plot-3"></div>
 
 You'll find this post in your `_posts` directory. Go ahead and edit it and commit your changes to to the repository. GitHub will automatically rebuild your site. Wait a few minutes and then refresh the site link to see the new changes. There are two main ways to make changes to your site:
 
