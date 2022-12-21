@@ -38,7 +38,7 @@ business["city"]=='Philadelphia'
 
 ### Star Ratings Distributions for all yelp business in Philadelphia
 
-![topyelp]({{ site.url }}{{ site.baseurl }}/assets/images/Yelp-Star-Rating-Distribution-in-Philadelphia.jpg)
+![paylepdsd]({{ site.url }}{{ site.baseurl }}/assets/images/Yelp-Star-Rating-Distribution-in-Philadelphia.jpg)
 
 ### Interactive folium heatmap 
 
@@ -46,10 +46,31 @@ Map shows the star ratings distribution in Philadelphia area, 1-9 represents sta
 
 <div id="folium-chart-1"></div>
 
+## Next we trim to look at only Restaurants business on Yelp in Philadelphia
+
+```python
+rest =payelp[payelp['categories'].str.contains('Restaurant.*')==True].reset_index()
+```
+### Restaurants Star Rating Distribution
+
+![reststar]({{ site.url }}{{ site.baseurl }}/assets/images/Resturants-Star-Rating-Distribution-in-Philadelphia.jpg)
+
+### Restaurants Categories Distribution
+
+Interesting to see Nightlife is the Top1 categories for restaurants in Philadelphia
+
+![restcate]({{ site.url }}{{ site.baseurl }}/assets/images/top-restaurants-categories-in-Philadelphia.jpg)
+
+### Interactive folium heatmap for Restaurants
+
+<div id="folium-chart-2"></div>
+
+
+
 Bike ratio by block group:
 <div id="alt-plot-16"></div>
 
-![bike-from-where-to-where]({{ site.url }}{{ site.baseurl }}/assets/images/bike-from-where-to-where.jpg)
+
 
 (Only aggregate trips > 5)
 
