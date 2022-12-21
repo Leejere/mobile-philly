@@ -12,9 +12,15 @@ altair-loader:
   plot-1: "assets/altair-charts/mode-by-departure-time.json"
 ---
 
+# Introduction
 
+A brief introduction
 
-# Visualizing 
+# Data
+
+Introducing replica data
+
+![Arrivals-by-hou](assets/gif/destination-by-hour.gif)
 
 <div id="plot-1"></div>
 
