@@ -22,4 +22,5 @@ Below, we show the distance between residential sales and the average distance t
 ![distances-abandoned-cars]({{ site.url }}{{ site.baseurl }}/assets/images/distance_to_abandoned_cars.png)
 
 
-![eat-net-flow]({{ site.url }}{{ site.baseurl }}/assets/images/Where do people go eating.png)
+![eat-net-flow]({{ site.url }}{{ site.baseurl }}/assets/images/eat-net-flow.png)
+![eat-net-flow2](../../assets/images/eat-net-flow.png)
