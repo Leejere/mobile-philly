@@ -8,7 +8,7 @@ tags:
   - Github Page
   - update
 
-excerpt:"Embedding interactive Folium charts on static pages using Jekyll."
+excerpt:
 altair-loader:
   alt-plot-16: "assets/altair-charts/bike-ratio-by-bg.json"
 folium-loader:
