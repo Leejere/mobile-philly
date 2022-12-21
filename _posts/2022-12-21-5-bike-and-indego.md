@@ -7,6 +7,7 @@ categories:
 tags:
   - Github Page
   - update
+
 excerpt:"Embedding interactive Folium charts on static pages using Jekyll."
 altair-loader:
   alt-plot-16: "assets/altair-charts/bike-ratio-by-bg.json"
@@ -15,9 +16,6 @@ folium-loader:
   folium-chart-2: ["assets/folium/Philadelphia-Resturants-Review-heatmap-Animation.html", "400"]
 toc: true
 toc_sticky: true
-
-
-
 ---
 
 # Yelp Dataset
