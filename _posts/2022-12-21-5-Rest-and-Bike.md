@@ -44,4 +44,17 @@ All the features like distance to nearest Indego stations, trip duration, distan
 
 ![corr]({{ site.url }}{{ site.baseurl }}/assets/images/Correlations.jpg)
 
-After that we set up pipleline from  StandardScaler to RandomForestRegressor, and use GridSearchCV to find out the best params are ['randomforestregressor__max_depth': None,'randomforestregressor__9 estimators': 200]. And the grid.score is super low, the prediction is not trust-worthy at all. To think about the total bike trips by each census block, it may related to more about demographic features, or census block level bike trips is not a ideal level to predict bike trip data.
+After that we set up pipleline from  StandardScaler to RandomForestRegressor, and use GridSearchCV to find out the best params are ['randomforestregressor__max_depth': None,'randomforestregressor__9 estimators': 200]. 
+
+```python
+feature_cols = [    
+    "laggedTrips",
+    "trip_duration_minutes",
+    "logDistRests",
+    "trip_distance_miles",
+]
+train_set = train_set[feature_cols]
+test_set = test_set[feature_cols]
+```
+
+And the grid.score is super low, the prediction is not trust-worthy at all. To think about the total bike trips by each census block, it may related to more about demographic features, or census block level bike trips is not a ideal level to predict bike trip data.
