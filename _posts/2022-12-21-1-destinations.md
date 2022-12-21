@@ -12,10 +12,10 @@ altair-loader:
   alt-plot-2: "assets/altair-charts/bg-clustering-map.json"
   alt-plot-3: "assets/altair-charts/cluster-dashboard.json"
 hv-loader:
-  hv-plot-1: ["assets/altair-charts/eat-destinations.html", "750"]
-  hv-plot-2: ["assets/altair-charts/Shop-destinations.html", "750"]
-  hv-plot-3: ["assets/altair-charts/Work-destinations.html", "750"]
-  hv-plot-4: ["assets/altair-charts/School-destinations.html", "750"]
+  hv-plot-1: ["assets/altair-charts/eat-destinations.html", "650"]
+  hv-plot-2: ["assets/altair-charts/Shop-destinations.html", "650"]
+  hv-plot-3: ["assets/altair-charts/Work-destinations.html", "650"]
+  hv-plot-4: ["assets/altair-charts/School-destinations.html", "650"]
 excert:
 
 ---
@@ -37,9 +37,9 @@ Replica's data includes trip origin and destination (block-group-level), trip di
 
 # Philadelphia's destinations
 
-Using `datashader` with the python `hvplot` library, we plotted every destination in Philadelphia at different times of the day. We can see that there are two **peak hours**, one in the morning, and the other in the afternoon. Destinations are highly **concentrated** in Center City, but are more **diffused** in the afternoon
-
 ![Arrivals-by-hour](../../assets/gif/destination-by-hour.gif)
+
+Using `datashader` with the python `hvplot` library, we plotted every destination in Philadelphia at different times of the day. We can see that there are two **peak hours**, one in the morning, and the other in the afternoon. Destinations are highly **concentrated** in Center City, but are more **diffused** in the afternoon
 
 Note: each dot represents an arrival. The dot is randomly generated within the block group in which the arrival falls.
 
