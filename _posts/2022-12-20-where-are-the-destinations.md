@@ -11,6 +11,8 @@ altair-loader:
   alt-plot-1: "assets/altair-charts/arrivals-by-time.json"
   alt-plot-2: "assets/altair-charts/bg-clustering-map.json"
   alt-plot-3: "assets/altair-charts/cluster-dashboard.json"
+hv-loader:
+  hv-plot-1: ["assets/altair-charts/eat-destinations.html", "500"]
 excert:
 
 ---
@@ -30,6 +32,7 @@ Introducing replica data
 <div id="alt-plot-1"></div>
 <div id="alt-plot-2"></div>
 <div id="alt-plot-3"></div>
+<div id="hv-plot-1"></div>
 
 You'll find this post in your `_posts` directory. Go ahead and edit it and commit your changes to to the repository. GitHub will automatically rebuild your site. Wait a few minutes and then refresh the site link to see the new changes. There are two main ways to make changes to your site:
 
