@@ -8,7 +8,7 @@ tags:
   - Github Page
   - update
 altair-loader:
-  alt-plot-15: "assets/altair-charts/bike-ratio-by-bg.json"
+  alt-plot-16: "assets/altair-charts/bike-ratio-by-bg.json"
 
 excert:
 
@@ -17,7 +17,7 @@ excert:
 # Introduction
 
 Bike ratio by block group:
-<div id="alt-plot-15"></div>
+<div id="alt-plot-16"></div>
 
 ![bike-from-where-to-where]({{ site.url }}{{ site.baseurl }}/assets/images/bike-from-where-to-where.jpg)
 (Only aggregate trips > 5)

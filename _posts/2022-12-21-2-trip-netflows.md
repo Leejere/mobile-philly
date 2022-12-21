@@ -2,23 +2,31 @@
 title: "02 From Where To Where"
 date: 2022/12/20
 published: true
-tags: [dataviz, matplotlib]
+categories:
+  - blog
+tags: [dataviz, matplotlib, mobility]
 altair-loader:
-  plot-1: "assets/altair-charts/mode-by-departure-time.json"
+  alt-plot-15: "assets/altair-charts/mdistance-by-purpose.json"
 excerpt: "This is an example blog post that embeds a matplotlib image."
 toc: true
 toc_sticky: true
 read_time: false
 ---
 
-In the [previous blog](https://leejere.github.io/mobile-philly/blog/1-destinations/), we looked at only the destinations. However, we want to know where the trips come from as well, especially **whether people come a long way** to eat something, shop, or work. As a first step, the below chart shows
+In the [previous blog](https://leejere.github.io/mobile-philly/blog/1-destinations/), we looked at only the destinations. However, we want to know where the trips come from as well, especially **whether people come a long way** to eat something, shop, or work. As a first step, the below chart shows that work-related trips are **significantly longer** on average than all the other categories.
 
-Below, we show the distance between residential sales and the average distance to the 5 nearest 311 calls for abandoned cars.
+<div id="alt-plot-15"></div>
+
+The below plots show the *net-flows* between pairs of block groups. *Net flows* mean the number of incoming trips minus the number of outgoing trips. The **widths** of the lines signify the volumn of the net flows, whereas the colors signify the direction, with **blue** meaning the origins and **yellow** representing the sinks. In this case, those "yellow areas" with long lines sticking to far-away locations are the major centers or attractors.
+
+Note: to make the maps clearer, only net flows above a particular threshold (5 for eating, 10 for shopping and schooling, and 20 for working) are plotted.
 
 ![eat-net-flow]({{ site.url }}{{ site.baseurl }}/assets/images/eat.jpg)
 ![shop-net-flow]({{ site.url }}{{ site.baseurl }}/assets/images/shop.jpg)
 ![work-net-flow]({{ site.url }}{{ site.baseurl }}/assets/images/work.jpg)
 ![school-net-flow]({{ site.url }}{{ site.baseurl }}/assets/images/school.jpg)
+
+Consistent with the [previous blog](https://leejere.github.io/mobile-philly/blog/1-destinations/), we can identify that work destinations are the most concentrated and work trips are the longest. On the other hand, shopping trips are much more diffused.
 
 Code example: making the net-flow map of eating trips. For more detail, see [this notebook](https://github.com/MUSA-550-Fall-2022/final-project-mobile_philly/blob/main/notebooks/replica-visualization.ipynb).
 

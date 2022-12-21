@@ -4,9 +4,7 @@ date: 2022/12/20
 published: true
 categories:
   - blog
-tags:
-  - Github Page
-  - update
+tags: [dataviz, matplotlib, mobility]
 altair-loader:
   alt-plot-1: "assets/altair-charts/arrivals-by-time.json"
   alt-plot-2: "assets/altair-charts/bg-clustering-map.json"
