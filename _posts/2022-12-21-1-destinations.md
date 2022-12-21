@@ -1,5 +1,5 @@
 ---
-title: "Philly's Destinations"
+title: "01 Philly's Destinations"
 date: 2022/12/20
 published: true
 categories:
@@ -22,7 +22,7 @@ excert:
 
 # Introduction
 
-A brief introduction
+What are the major destinations of Philadelphia? When, how, and why do people travel? [Replica](https://studio.replicahq.com/) provides 
 
 # Data
 
