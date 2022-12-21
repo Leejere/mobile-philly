@@ -22,7 +22,8 @@ toc_sticky: true
 
 Now, let us look at some other datasets and see how they interact with our Replica dataset.
 
-In this blog, we will walk you through some analysis based on Yelp dataset avaiables from [Yelp.dataset.com](https://www.yelp.com/dataset/documentation/main).
+In this blog, we will walk you through some analysis based on Yelp dataset avaiables from [Yelp.dataset.com](https://www.yelp.com/dataset/documentation/main). From previous 3 blogs, you can see based on the Replica dataset, we analysis where people from, where people go, when people choose specific trip mode. Begining at this part, we will learn the pattern of business and restaurants in Philadelphia to see whether they match the Replica dataset.
+
 The original dataset contains 5 json file, we will mainly use 2 of them: Business and Check-in.
 
 `business.json` represents all business avaivable on Yelp platform data including unique id,lat,lng, attributes, and categories.
