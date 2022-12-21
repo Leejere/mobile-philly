@@ -1,5 +1,5 @@
 ---
-title: "05 Restaurants and Biking:Predicting Model"
+title: "05 Restaurants and Biking: Predictive Model"
 date: 2022/12/21
 published: true
 categories:

@@ -1,5 +1,5 @@
 ---
-title: "04 Yelp and Biking:Yelp in Philadelphia"
+title: "04 Introducing the Yelp dataset"
 date: 2022/12/20
 published: true
 categories:
@@ -20,18 +20,18 @@ toc: true
 toc_sticky: true
 ---
 
+Now, let us look at some other datasets and see how they interact with our Replica dataset.
+
 In this blog, we will walk you through some analysis based on Yelp dataset avaiables from [Yelp.dataset.com](https://www.yelp.com/dataset/documentation/main).
-The original dataset contains 5 json file, we will mainly use 2 of them: Business and Check in 
+The original dataset contains 5 json file, we will mainly use 2 of them: Business and Check-in.
 
-# Yelp Dataset
+`business.json` represents all business avaivable on Yelp platform data including unique id,lat,lng, attributes, and categories.
 
-business.json represents all business avaivable on Yelp platform data including unique id,lat,lng, attributes, and categories.
-
-checkin.json cotains all the checkins based on each unique business id.
+`checkin.json` cotains all the checkins based on each unique business id.
 
 ## Yelp in Philadelphia
 
-We trim the original dataset to only focus on Philadelphia and did some basic data visualizations.
+We trimmed the original dataset to only focus on Philadelphia and did some basic data visualizations.
 
 ```python
 business["city"]=='Philadelphia'
@@ -82,12 +82,6 @@ Using mapbox and plotly, we can have a interactive map showing all the restauran
 For this step,we joined the zillow neighborhood to find out number of restaurants per neighborhood in Philadelphia
 
 <div id="alt-plot-17"></div>
-
-### Compare with Bike ratio
-
-Bike ratio by block group from Replica trip model,we only aggregated trips > 5
-
-<div id="alt-plot-16"></div>
 
 # Checkins in Philadelphia
 
