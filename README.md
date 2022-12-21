@@ -16,6 +16,7 @@ This project produces five blog posts about mobility and some other related topi
 
 The raw data from Replica is in this [Google Drive link](https://drive.google.com/file/d/1bh51nx7r2AMikcaxt7Gt2Y4OqKca_c3T/view?usp=sharing), and the processed data is stored as ten `.csv` files under `data/cleaned-data` in [the repository](https://github.com/Leejere/mobile-philly/). The script used to process the data is in `notebooks/data-processing.py` in the same repository.
 
-The Yelp dataset is available in Yelp, and the processed data is stored as 'checkinpa.csv','philadelphiabusinessyelp.csv' and 'zillow_neighborhoods.geojson' under data/ [in the repository](https://github.com/Leejere/mobile-philly/).
+The Yelp dataset is available in [Yelp](https://www.yelp.com/dataset/download), and the processed data is stored as `checkinpa.csv`,`philadelphiabusinessyelp.csv` and 
+`zillow_neighborhoods.geojson` under `data/` [in this repository](https://github.com/MUSA-550-Fall-2022/final-project-mobile_philly). 
 
-All the other scripts for data processing, analysis, and visualizing are in either `replica-visualization.ipynb` or `yelp-bike.ipynb` under `notebooks/`. All other data used or imported is under `data/` in [the repository](https://github.com/Leejere/mobile-philly/).
+All the other scripts for data processing, analysis, and visualizing are in either `replica-visualization.ipynb` or `yelp_bike.ipynb` under `notebooks/`. All other data used or imported is under `data/` in [the repository]https://github.com/MUSA-550-Fall-2022/final-project-mobile_philly).
