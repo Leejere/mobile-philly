@@ -1,19 +1,19 @@
-# github-pages-starter
+# Final Project: Mobile Philadelphia
 
-A template for including data visualizations in a Jekyll-powered blog with Github Pages.
+Authors: [@Jie Li](https://github.com/Leejere)
+[@Jie Wang](https://github.com/Buduwang)
 
-[DEMO](https://musa-550-fall-2022.github.io/github-pages-starter/)
 
-## Steps
+In **MUSA 5550** with Nick Hand, fall 2022, University of Pennsylvania
 
-- Click on the "Use this template" button to create a new repository.
-- Choose a new name for your new repository
-- Go to the Settings section of your new repository, scroll down to the "Github Pages" section, and select the "Main" as the branch to be used for GitHub pages. This will automatically build the website.
-- Customize your site
-  - Enter your site name, description, etc by editing the `_config.yml` file.
-  - There are two different ways that you can make changes to your blog's files:
-    - Edit files within your in the browser at GitHub.com
-    - Clone down your repository and make updates locally, then push them to your GitHub repository.
-- Publish a post
-  - Posts are written in Markdown and any files added to the `_posts` directory will be automatically uploaded and published
-  - Useful resource: [Markdown Cheatsheet](http://www.jekyllnow.com/Markdown-Style-Guide/)
+______
+
+**For the end-product of this project, please go to [the deployed pages at this link](https://leejere.github.io/mobile-philly/), or the corresponding [GitHub repository](https://github.com/Leejere/mobile-philly).**
+
+This project produces five blog posts about mobility and some other related topics. We used [Replica](https://studio.replicahq.com/) as a main source for mobility data, which is further introduced in the [first blog post](https://leejere.github.io/mobile-philly/blog/1-destinations/). Two other data sources are [restaurants reviews data from Yelp](), which we used to dive deeper into dining-related trips, and [Indego data](), which we used to explore more on bike travel.
+
+## Navigation
+
+The raw data from Replica is in this [Google Drive link](https://drive.google.com/file/d/1bh51nx7r2AMikcaxt7Gt2Y4OqKca_c3T/view?usp=sharing), and the processed data is stored as ten `.csv` files under `data/cleaned-data` in [the repository](https://github.com/Leejere/mobile-philly/). The script used to process the data is in `notebooks/data-processing.py` in the same repository.
+
+All the other scripts for data processing, analysis, and visualizing are in either `replica-visualization.ipynb` or `another file` under `notebooks/`. All other data used or imported is under `data/` in [the repository](https://github.com/Leejere/mobile-philly/).
