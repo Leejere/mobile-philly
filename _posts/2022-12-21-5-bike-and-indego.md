@@ -26,6 +26,7 @@ In this blog, we will walk you through some analysis based on Yelp dataset avaia
 The original dataset contains 5 json file, we will mainly use 2 of them: Business and Check in 
 
 business.json represents all business avaivable on Yelp platform data including unique id,lat,lng, attributes, and categories.
+
 checkin.json cotains all the checkins based on each unique business id.
 
 ## Yelp in Philadelphia
