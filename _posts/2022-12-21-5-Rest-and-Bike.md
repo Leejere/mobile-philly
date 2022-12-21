@@ -40,11 +40,10 @@ After this step, we also import Indego stations from Indego API, and calculate t
 
 ### Correlations for all features
 
-Distance to the Indego stations also strongest positive correlation with total bike trips, distance to nearest resturants is not that correlated to bike trips and 
-other features.
+All the features like distance to nearest Indego stations, trip duration, distance to Yelp restaurants, income are all not correlated with total trips by census block, the current model's feautres are not useful enough.
 
 ![corr]({{ site.url }}{{ site.baseurl }}/assets/images/Correlations.jpg)
 
-After that we set up pipleline from  StandardScaler to RandomForestRegressor, and use GridSearchCV to find out the best params are ['randomforestregressor__max_depth': None,'randomforestregressor__n_estimators': 200]. And our current model is overfitting the grid score is over 0.99. At this step, the predicted and actual trips are pretty much the same. To further optimize our model, we may need to take off 
+After that we set up pipleline from  StandardScaler to RandomForestRegressor, and use GridSearchCV to find out the best params are ['randomforestregressor__max_depth': None,'randomforestregressor__9 estimators': 200]. And the grid.score is super low, the prediction is not trust-worthy at all. To think about the total bike trips by each census block, it may related to more about demographic features, or census block level bike trips is not a ideal level to predict bike trip data.
 
 
