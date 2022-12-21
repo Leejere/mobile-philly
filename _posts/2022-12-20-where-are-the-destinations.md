@@ -20,7 +20,7 @@ A brief introduction
 
 Introducing replica data
 
-![Arrivals-by-hou](assets/gif/destination-by-hour.gif)
+![Arrivals-by-hou](../../assets/gif/destination-by-hour.gif)
 
 <div id="plot-1"></div>
 
