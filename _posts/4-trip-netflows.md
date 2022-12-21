@@ -1,6 +1,6 @@
 ---
-title: "Example: Embedding Matplotlib Images"
-date: 2019-04-17
+title: "From Where To Where"
+date: 2022/12/20
 published: true
 tags: [dataviz, matplotlib]
 altair-loader:
