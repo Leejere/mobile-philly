@@ -19,8 +19,7 @@ This is an example post. The posts are written in markdown.
 
 Below, we show the distance between residential sales and the average distance to the 5 nearest 311 calls for abandoned cars.
 
-![eat-net-flow](../../assets/images/Where do people go eating.png)
-![shop-net-flow](../../assets/images/Where do people go shopping.png)
-![work-net-flow](../../assets/images/Where do people go working.png)
-![school-net-flow](../../assets/images/Where do people go schooling.png)
+![distances-abandoned-cars]({{ site.url }}{{ site.baseurl }}/assets/images/distance_to_abandoned_cars.png)
 
+
+![eat-net-flow]({{ site.url }}{{ site.baseurl }}/assets/images/Where do people go eating.png)
