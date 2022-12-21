@@ -21,6 +21,11 @@ toc: true
 toc_sticky: true
 read_time: false
 ---
+
+![walk-bike-flows]({{ site.url }}{{ site.baseurl }}/assets/images/walk-bike-from-where-to-where.jpg)
+
+![bike-flows]({{ site.url }}{{ site.baseurl }}/assets/images/bike-from-where-to-where.jpg)
+
 <div id="alt-plot-4"></div>
 <div id="alt-plot-5"></div>
 <div id="alt-plot-6"></div>
