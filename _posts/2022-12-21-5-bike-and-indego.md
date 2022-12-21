@@ -11,6 +11,7 @@ tags:
 excerpt:
 altair-loader:
   alt-plot-16: "assets/altair-charts/bike-ratio-by-bg.json"
+  alt-plot-17: "assets/altair-charts/Number-of-Resutaurants-per-Neighborhood.json"
 folium-loader:
   folium-chart-1: ["assets/folium/Philadelphia-Rating-heatmap-Animation.html", "400"] 
   folium-chart-2: ["assets/folium/Philadelphia-Resturants-Review-heatmap-Animation.html", "400"]
@@ -64,19 +65,48 @@ Interesting to see Nightlife is the Top1 categories for restaurants in Philadelp
 
 ### Interactive folium heatmap for Restaurants
 
+For 5 stars restaruants, you will start to see some cluters on the south side of the city.
+
 <div id="folium-chart-2"></div>
 
-## Resturants in Philadelphia 
+## Restaurants in Philadelphia 
 
 Using mapbox and plotly, we can have a interactive map showing all the restaurants and their star ratings.
 
 <div id="folium-chart-3"></div>
 
-Bike ratio by block group:
+### Number of Restaurants per Neighborhood in Philadelphia
+
+For this step,we joined the zillow neighborhood to find out number of restaurants per neighborhood in Philadelphia
+
+<div id="alt-plot-17"></div>
+
+### Compare with Bike ratio
+
+Bike ratio by block group from Replica trip model,we only aggregated trips > 5
+
 <div id="alt-plot-16"></div>
 
+# Checkins in Philadelphia
 
+For checkin data,we also trimmed data to only look at Philadelphia. The original json file only has business id and all the checkin dates. We need to first split these dates. And convert it to datetime. Below are some visualizations for checkin distribution in Philadelphia.
 
-(Only aggregate trips > 5)
+### Philadelphia Restaurants Historical Yelp Check in by weekday
+
+![restcheckwd]({{ site.url }}{{ site.baseurl }}/assets/images/Philadelphia-Restaurants-Historical-Yelp-Check-in-by-weekday.jpg)
+
+### Philadelphia Restaurants Historical Yelp Check in by Time
+
+![restchecktm]({{ site.url }}{{ site.baseurl }}/assets/images/Philadelphia-Restaurants-Historical-Yelp-Check-in-by-Time.jpg)
+
+### Philadelphia Restaurants Historical Yelp Check in by Month
+
+![restcheckmon]({{ site.url }}{{ site.baseurl }}/assets/images/Philadelphia-Restaurants-Historical-Yelp-Check-in-by-Month.jpg)
+
+## Distribution of checkins on different weekday
+
+![restcheckpwd]({{ site.url }}{{ site.baseurl }}/assets/images/Distribution-of-checkins-on-different-weekday-in-Philadelphia.jpg)
+
+In the next blog, we will be focusing on replica bike trip data and yelp resturants data to predict block bike trip demand
 
 
