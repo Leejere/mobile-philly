@@ -29,7 +29,7 @@ checkin.json cotains all the checkins based on each unique business id.
 
 ## Yelp in Philadelphia
 
-We trim the original dataset to only focus on Philadelphai and did some basic data visualizations.
+We trim the original dataset to only focus on Philadelphia and did some basic data visualizations.
 
 ```python
 business["city"]=='Philadelphia'
@@ -44,7 +44,7 @@ business["city"]=='Philadelphia'
 
 ### Interactive folium heatmap 
 
-Map shows the star ratings distribution in Philadelphia area, 1-9 represents stars from 1,1.5,2,2.5,3...5. You can see many 5 star rating Yelp business are located along the Board Street, and clustring at center city along Walnut,Chestnut and Market Street.
+Map shows the star ratings distribution in Philadelphia area, 1-9 represents stars from 1,1.5,2,2.5,3...5. You can see many 5 star-rating Yelp business are located along the Board Street, and clustring at center city along Walnut,Chestnut and Market Street.
 
 <div id="folium-chart-1"></div>
 
